@@ -1,0 +1,107 @@
+body {
+    direction: rtl;
+    background-color: #94B4C1;
+    box-shadow: 0 0 4px #9494a9;
+    border-radius: 5px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px;
+    margin-top: 150px;
+}
+
+/* הכותרת העליונה */
+h1 {
+    margin: 20px;
+    color: #EAE0CF
+}
+
+/* כותרות משניות*/
+h2 {
+    border-bottom: 1px solid #333333;
+    margin: 16px;
+    padding-bottom: 8px;
+    color: #1f2937;
+}
+
+.logo::after {
+    content: 'MR';
+    font-size: 50px;
+    font-style: italic;
+}
+
+/* עריכת התפריט */
+.navbar {
+    margin-left: 100px;
+    background-color: #1f2937;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    z-index: 999;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: space-evenly;
+}
+
+.nav-list li {
+    margin-inline: 10px;
+}
+
+.nav-list a {
+    display: block;
+    padding: 16px 12px;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 500;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.nav-list a:hover {
+    background-color: #374151;
+    color: #e5e7eb;
+    border-radius: 5px;
+}
+
+.nav-list a.active {
+    border-bottom: 3px solid #0077d8;
+}
+.frame {
+    width: 80%;
+    max-width: 900px;
+    min-height: 300px;
+    background-color: #EAE0CF;
+    margin: auto;
+    padding: 8px 16px;
+    border-radius: 6px;
+}
+#details{
+    margin:50px;
+    font-size: 24px;
+    text-align: start;
+}
+footer {
+    margin-top: 50px;
+    border-color: #333333;
+    border-radius: 5px;
+    display: inline-block;
+}
+footer ul {
+    list-style-type: none;
+    display: flex;
+    border-radius: 5px;
+    justify-content: space-evenly;
+}
+
+footer ul button {
+    border-radius: 5px;
+    border-style: solid;
+    height: 35px;
+    width: 35px;
+    margin-left: 45px;
+    background-color: #EAE0CF;
+}

@@ -1,0 +1,101 @@
+body {
+    /* רקע */
+    background-color: #090d12;
+    /* גופן */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* כיוון האתר */
+    direction: rtl;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/9/91/Pizza-3007395.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1 {
+    /* צבע טקסט */
+    color: white;
+    /* גודל טקסט */
+    font-size: 36px;
+    /* יישור טקסט */
+    text-align: center;
+    background-color: #f8aa00;
+    border: 2px solid;
+    stroke-width: 5px;
+    border-radius: 25px;
+    margin-left: 500px;
+    margin-right: 500px;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.frame {
+    /* רקע */
+    background-color: rgb(131, 209, 94);
+    /* רוחב */
+    width: 90%;
+    /* רוחב מקסימלי */
+    max-width: 375px;
+    /* גובה התחלתי */
+    min-height: 500px;
+    /* מרכוז אלמנט */
+    margin: auto;
+    /* עיגול קצוות */
+    border-radius: 5px;
+    /* ריווח פנימי */
+    padding: 12px;
+    border: 1px;
+    border-style: dotted;
+}
+
+.field {
+    /* ריווח פנימי */
+    padding: 8px;
+}
+
+.field input,
+.field select,
+textarea {
+    /* רוחב */
+    width: 100%;
+    /* ריווח פנימי */
+    padding: 8px;
+    /* ריווח חיצוני עליון */
+    margin-top: 3px;
+    /* עיגול קצוות */
+    border-radius: 4px;
+    /* גבול */
+    border: 1px solid;
+    /* גודל גופן */
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    font-size: 18px;
+    padding: 8px;
+    background-color: #f8aa00;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    margin-top: 12px;
+    border: 2px solid;
+}
+
+textarea {
+    min-height: 100px;
+}
+
+ul{
+    background-color: #f8aa00;
+    border: solid,2px,white;
+    border-radius: 4px;
+}
